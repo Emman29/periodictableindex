@@ -1,0 +1,45 @@
+body{
+  background-color: black;
+  color: white;
+  padding: 30px;
+  font-family: sans-serif;
+}
+header{
+  text-align: center;
+  color: white;
+}
+input{
+  text-align: center;
+  border: 1px solid white;
+  height: 40px;
+  width: 100%;
+  max-width: 900px;
+}
+main{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.element_box{
+  margin-top: 30px;
+  box-sizing: border-box;
+  background-color: white;
+  width: 100%;
+  max-width: 400px;
+  color: black;
+  height: 400px;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+#atomic_number #atomic_mass{
+  font-size: 120%;
+}
+#symbol{
+  margin: -12px 0px;
+  font-size: 800%;
+}
+#name{
+  font-size: 300%;
+}
