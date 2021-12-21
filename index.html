@@ -13,15 +13,17 @@
     <header>
       <h1>Periodic Table Index</h1>
       <input type="text" id="input_box" placeholder="what are you looking for?">
-
+      <br>
+      <input type="button" id="find" onclick="findElement();" value="Find"/>
     </header>
-    <main>
+    <main onload="hideFirst();">
       <div class="element_box">
-        <h3 id="atomic_number">0000</h3>
-        <h1 id="symbol">Ab</h1>
-        <h2 id="name">Loremipsum</h2>
-        <h3 id="atomic_mass">1.008</h3>
+        <h3 id="atomic_number">-</h3>
+        <h1 id="symbol">--</h1>
+        <h2 id="name">-</h2>
+        <h3 id="atomic_mass">-</h3>
       </div>
+
     </main>
 
 
