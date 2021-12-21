@@ -8,38 +8,58 @@ header{
   text-align: center;
   color: white;
 }
-input{
+#input_box{
   text-align: center;
   border: 1px solid white;
   height: 40px;
   width: 100%;
   max-width: 900px;
 }
+#find{
+  margin-top: 20px;
+  font-size: 20px;
+  border: 2px white solid;
+  background: transparent;
+  color: white;
+  width: 20%;
+  height: 38px;
+}
+#find:hover{
+  background: white;
+  color: black;
+}
 main{
   width: 100%;
   justify-content: center;
   align-items: center;
+  align-self: center;
 }
 .element_box{
-  margin-top: 30px;
+  margin: 30px 38.4%;
   box-sizing: border-box;
   background-color: white;
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
   color: black;
-  height: 400px;
+  height: 300px;
   padding: 10px 30px;
   justify-content: center;
   align-items: center;
   align-content: center;
 }
+.hidden{
+  display: none;
+}
+#description_box{
+  margin: 10px 200px;
+}
 #atomic_number #atomic_mass{
-  font-size: 120%;
+  font-size: 20px;
 }
 #symbol{
   margin: -12px 0px;
-  font-size: 800%;
+  font-size: 80px;
 }
 #name{
-  font-size: 300%;
+  font-size: 35px;
 }
