@@ -106,7 +106,7 @@ function findElement(){
       result_symbol.textContent = element.symbol;
       box_item.className = 'element_box';
     }else{
-      alert('Huh, that didn\'nt work.');
+      
     }
   });
 
