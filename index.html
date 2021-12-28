@@ -6,6 +6,9 @@
 
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
 
 
   </head>
@@ -17,14 +20,31 @@
       <input type="button" id="find" onclick="findElement();" value="Find"/>
     </header>
     <main onload="hideFirst();">
-      <div class="element_box">
-        <h3 id="atomic_number">-</h3>
-        <h1 id="symbol">--</h1>
-        <h2 id="name">-</h2>
-        <h3 id="atomic_mass">-</h3>
+      <br>
+      <br>
+      <div id="element_box">
+        <h3 id="atomic_number"></h3>
+        <h1 id="symbol"></h1>
+        <h2 id="name"></h2>
+        <h3 id="atomic_mass"></h3>
+      </div>
+
+      <div id="facts">
+        <p id='about'></p>
+        <br>
+        <p id="series"></p>
+        <p id="group"></p>
+        <p id="period"></p>
+        <p id="melt"></p>
+        <p id="boil"></p>
+        <p id="el"></p>
+        <p id="en"></p>
+        <p id="ea"></p>
       </div>
 
     </main>
+    <footer>
+    </footer>
 
 
 
