@@ -2,7 +2,10 @@ body{
   background-color: black;
   color: white;
   padding: 30px;
-  font-family: sans-serif;
+  font-family: nunito;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
 }
 header{
   text-align: center;
@@ -13,7 +16,7 @@ header{
   border: 1px solid white;
   height: 40px;
   width: 100%;
-  max-width: 900px;
+  max-width: 880px;
 }
 #find{
   margin-top: 20px;
@@ -34,19 +37,22 @@ main{
   align-items: center;
   align-self: center;
 }
-.element_box{
-  margin: 30px 38.4%;
-  box-sizing: border-box;
-  background-color: white;
-  width: 100%;
-  max-width: 300px;
-  color: black;
-  height: 300px;
-  padding: 10px 30px;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+#element_box{
+    margin: 30px 15%;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 300px;
+    color: black;
+    height: 300px;
+    padding: 5px 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+
 }
+
+
 .hidden{
   display: none;
 }
@@ -62,4 +68,8 @@ main{
 }
 #name{
   font-size: 35px;
+}
+p{
+  color: white;
+  margin: 10px 15%;
 }
